@@ -1,0 +1,13 @@
+name=input('enter your name:')
+ch=int(input('enter 1 for apartment or 2 for house:'))
+if ch==1:
+    a=input('enter your apartment no:')
+elif ch==2:
+    a=input('enter your door no:')
+else:
+    print('enter valid input')
+locality=input('enter the name of your locality:')
+district=input('enter the name of your district:')
+country=input('enter your the name of your country:')
+pincode=int(input('enter your locality pincode:'))
+print(a,locality.title(),district.title(),country.title(),pincode)
